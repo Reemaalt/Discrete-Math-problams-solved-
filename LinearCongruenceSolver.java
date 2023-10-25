@@ -1,11 +1,11 @@
 public class LinearCongruenceSolver {
-    public static int solveLinearCongruence(int a, int b, int m) {
+    public static int [] solveLinearCongruence(int a, int b, int m) {
         // Calculate the greatest common divisor of a and m
         int gcd = gcd(a, m);
 
         // Check if a solution exists
         if (b % gcd != 0) {
-            return -1; // No solution
+            return -1; //  if No solution
         }
 
         // Reduce the congruence to the form ax ≡ b (mod m)
