@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
-
+//idk
 public class MathHW2 {
 
     // Calculate the (GCD) using the Euclidean algorithm
